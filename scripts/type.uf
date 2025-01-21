@@ -1,0 +1,16 @@
+// The comment can be removed to try a runTime error
+var x : Int = 43;
+var y : String = "hello";
+var z : Double = 2.5;
+
+print("Here is x: ");
+println(x);
+print("Here is y: ");
+println(y);
+print("Here is z: ");
+println(z);
+
+y = "hihi";
+print("Here is y after set: ");
+println(y);
+//y = 130;

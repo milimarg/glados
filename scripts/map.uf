@@ -1,0 +1,21 @@
+
+// Every comment can be remove to try a runTime error
+map[Int : String] myMap;
+safemap[Int : String] mySafeMap;
+
+print("Here is myMap: ");
+println(myMap);
+print("Here is mySafeMap: ");
+println(mySafeMap);
+
+// println(myMap[8]);
+//myMap["invalid"] = "toi";
+myMap[8] = "Coucou";
+print("Here is myMap[8]: ");
+println(myMap[8]);
+
+print("Here is mySafeMap[0] before set: ");
+println(mySafeMap[0]);
+mySafeMap[0] = "Now it's good";
+print("Here is mySafeMap[0] after set: ");
+println(mySafeMap[0]);

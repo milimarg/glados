@@ -1,0 +1,5 @@
+class Foo {
+  bar() { return 42; }
+}
+
+print Foo().bar(); // expect: 42.0

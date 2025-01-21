@@ -1,0 +1,16 @@
+.stack-work/
+*~
+coding-style-reports.log
+.vscode
+.idea
+*.cabal
+stack.yaml.lock
+glados
+*.o
+dist-newstyle
+*.eventlog
+*.html
+*.prof
+*.hp
+history.lhis
+*.log

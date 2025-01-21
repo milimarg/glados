@@ -1,0 +1,7 @@
+Here is emptyTuple: <list> [0,0]
+Here is boolTuple: <list> [true,false,true]
+Here is intTuple: <list> [54,12,7]
+Here is stringTuple: <list> [Coucou,toi,là]
+Here is new boolTuple: <list> [true,false,false]
+Here is boolTuple[0] before set: true
+Here is boolTuple[0] after set: false

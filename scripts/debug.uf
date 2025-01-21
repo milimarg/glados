@@ -1,0 +1,10 @@
+class Foo {
+    bar() { return 42; }
+}
+
+println Foo().bar();
+
+{
+    var x = "inside";
+    println(x);
+}

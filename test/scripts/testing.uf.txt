@@ -1,0 +1,24 @@
+class output
+base output
+outside
+inside
+outside
+TEST
+string
+TEST
+42.5
+TEST
+nil
+16
+43
+AAA
+AAA
+AAA
+AAA
+AAA
+AAA
+AAA
+AAA
+AAA
+AAA
+45

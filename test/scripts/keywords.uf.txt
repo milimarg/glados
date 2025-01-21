@@ -1,0 +1,8 @@
+[91mCompilation error:
+[0m[91m[line 2, col 1] Error at 'else': Expect '(' after 'if'.
+[0m[91m[line 7, col 1] Error at 'class': Expect expression.
+[0m[91m[line 11, col 1] Error at 'return': Can't return from top-level code.
+[0m[91m[line 14, col 1] Error at 'print': Expect expression.
+[0m[91m[line 15, col 1] Error at 'this': Can't use 'this' outside of a class.
+[0m[91m[line 25, col 1] Error at end: Expect expression.
+[0m

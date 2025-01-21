@@ -1,0 +1,24 @@
+class Foo {
+    inFoo() {
+        println "in foo";
+    }
+}
+
+class Bar : Foo {
+    inBar() {
+        // super.inFoo();
+        println "in bar";
+    }
+}
+
+class Baz : Bar {
+    inBaz() {
+        // super.inBar();
+        println "in baz";
+    }
+}
+
+var baz = Baz();
+baz.inBaz(); // expect: in baz
+baz.inBar(); // expect: in bar
+baz.inFoo(); // expect: in foo

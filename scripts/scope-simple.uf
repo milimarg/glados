@@ -1,0 +1,7 @@
+{
+  var a = "before";
+  println a;
+
+  a = "after";
+  println a;
+}

@@ -1,0 +1,4 @@
+println "before for";
+for (var c = 0; c < 3; c = c + 1)
+    println c;
+println "after for";

@@ -1,0 +1,34 @@
+var x = 42;
+
+#define 42 "this is a test"
+
+println x;
+
+var n = 5;
+n++;
+n++;
+n++;
+println n--;
+
+printuf "test";
+printmiaou "test";
+printuf 12;
+
+var a = 100;
+a += 5;
+println a;
+a *= 2;
+println a;
+a -= 3;
+println a;
+a /= 4;
+println a;
+a %= 12;
+println a;
+
+var condition = true;
+if (condition && n > 0 || a == 1) {
+    printuf "Condition met!";
+} else {
+    printmiaou "uf";
+}

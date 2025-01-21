@@ -1,0 +1,7 @@
+var x = 42;
+println(x);
+{
+    var x = 12;
+    println(x);
+}
+println(x);

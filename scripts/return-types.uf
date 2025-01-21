@@ -1,0 +1,16 @@
+fun test(n)
+{
+    if (n == 1) {
+        return "uf"; // string returned
+    }
+    if (n == 2) {
+        return 23; // int returned
+    }
+    else {
+        return 92.0; // double returned
+    }
+}
+
+println test(1);
+println test(2);
+println test(3);

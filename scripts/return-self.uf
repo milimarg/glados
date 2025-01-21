@@ -1,0 +1,12 @@
+class Foo {
+    returnSelf() {
+        return Foo;
+    }
+
+    dump() {
+        println "Foo";
+        return 42;
+    }
+}
+
+print Foo().returnSelf()().dump();

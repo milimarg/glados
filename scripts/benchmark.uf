@@ -1,0 +1,10 @@
+fun benchmark()
+{
+    println "Before benchmark";
+    var i = 5;
+    while (i < 10000000)
+        i += 10;
+    println "After benchmark";
+}
+
+benchmark();

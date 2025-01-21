@@ -1,0 +1,21 @@
+//var bool = false;
+//var a = 0;
+//if (bool) {
+//    a = 42;
+//} else {
+//    a = 69;
+//}
+//println a;
+
+//<-> (false) ? 42 : 69;
+var a = <-> (false) ? 42 : 43;
+println a;
+
+//
+//var a = 0;
+//if (false) {
+//    a = 42;
+//} else {
+//    a = 69;
+//}
+//

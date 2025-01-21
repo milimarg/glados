@@ -1,0 +1,20 @@
+fun factorial(n)
+{
+    print("Computing factorial of ");
+    println(n);
+    if (n <= 1) {
+        print("Reached base case: ");
+        println(n);
+        return 1;
+    }
+    var result = n * factorial(n - 1);
+    print("Factorial of ");
+    print(n);
+    print(" is ");
+    println(result);
+    return result;
+}
+
+var result = factorial(12); // * expected output: 479001600
+print("Result: ");
+println(result);

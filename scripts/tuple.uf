@@ -1,0 +1,29 @@
+// Every comment can be remove to try a runTime error
+tuple[Int, Int] emptyTuple;
+//tuple[Int, Int] otherEmptyTuple = []; -> Error because need at list the same number of elements
+
+print("Here is emptyTuple: ");
+println(emptyTuple);
+
+tuple[Bool, Bool, Bool] boolTuple = [true, false, true];
+tuple[Int, Int, Int] intTuple = [54, 12, 7];
+tuple[String, String, String ] stringTuple = ["Coucou", "toi", "là"];
+
+print("Here is boolTuple: ");
+println(boolTuple);
+print("Here is intTuple: ");
+println(intTuple);
+print("Here is stringTuple: ");
+println(stringTuple);
+
+boolTuple = [true, false, false];
+print("Here is new boolTuple: ");
+println(boolTuple);
+//boolTuple = [true, false];
+//boolTuple = [true, "coucou"];
+
+print("Here is boolTuple[0] before set: ");
+println(boolTuple[0]);
+boolTuple[0] = false;
+print("Here is boolTuple[0] after set: ");
+println(boolTuple[0]);

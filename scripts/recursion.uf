@@ -1,0 +1,11 @@
+fun testFunction(x)
+{
+    println("Start of the function");
+    if (x != 42) {
+        return "Reached the end";
+    }
+    x = x - 1;
+    println("Before recursive call");
+    return testFunction(x);
+}
+println(testFunction(42));

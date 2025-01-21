@@ -1,0 +1,8 @@
+fun recursion()
+{
+    println "hello";
+    return recursion();
+}
+
+setRecursionLimit 10;
+recursion();

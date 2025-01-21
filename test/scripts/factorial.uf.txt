@@ -1,0 +1,25 @@
+Computing factorial of 12
+Computing factorial of 11
+Computing factorial of 10
+Computing factorial of 9
+Computing factorial of 8
+Computing factorial of 7
+Computing factorial of 6
+Computing factorial of 5
+Computing factorial of 4
+Computing factorial of 3
+Computing factorial of 2
+Computing factorial of 1
+Reached base case: 1
+Factorial of 2 is 2
+Factorial of 3 is 6
+Factorial of 4 is 24
+Factorial of 5 is 120
+Factorial of 6 is 720
+Factorial of 7 is 5040
+Factorial of 8 is 40320
+Factorial of 9 is 362880
+Factorial of 10 is 3628800
+Factorial of 11 is 39916800
+Factorial of 12 is 479001600
+Result: 479001600

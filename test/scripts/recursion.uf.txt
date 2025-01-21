@@ -1,0 +1,4 @@
+Start of the function
+Before recursive call
+Start of the function
+Reached the end

@@ -1,0 +1,5 @@
+println("abs -42 = ");
+println(abs(-42));
+
+println("pi = ");
+println(M_PI);

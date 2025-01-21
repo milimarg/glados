@@ -1,0 +1,16 @@
+{
+  "iconDefinitions": {
+    "ufIcon": {
+      "iconPath": "./themes/icon/uflang-icon.png"
+    }
+  },
+  "fileExtensions": {
+    "uflang": "uf"
+  },
+  "languageIds": {
+      "uflang": "uflang-theme"
+  },
+  "fileNames": {},
+  "folderNames": {},
+  "folderNamesExpanded": {}
+}

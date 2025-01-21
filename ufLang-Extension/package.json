@@ -1,0 +1,30 @@
+{
+  "name": "uf",
+  "displayName": "ufLang",
+  "description": "ufLang support for VS Code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.3"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "uflang",
+      "aliases": ["ufLang", "uflang"],
+      "extensions": [".uf"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "uflang",
+      "scopeName": "source.uflang",
+      "path": "./syntaxes/uflang.tmLanguage.json"
+    }],
+    "iconThemes": [{
+      "id": "uflang-theme",
+      "label": "ufLang Icon Theme",
+      "path": "./themes/uf-icon-theme.json"
+    }]
+  }
+}

@@ -1,0 +1,30 @@
+// Every comment can be remove to try a runTime error
+list[Int] emptyList;
+list[Int] otherEmptyList = [];
+
+print("Here is emptyList: ");
+println(emptyList);
+print("Here is otherEmptyList: ");
+println(otherEmptyList);
+
+list[Bool] boolList = [true, false, true];
+list[Int] intList = [54, 12, 7];
+list[String] stringList = ["Coucou", "Je", "suis", "en", "depression"];
+
+print("Here is boolList: ");
+println(boolList);
+print("Here is intList: ");
+println(intList);
+print("Here is stringList: ");
+println(stringList);
+
+boolList = [true, false];
+print("Here is new boolList: ");
+println(boolList);
+// boolList = [true, "coucou"];
+
+print("Here is boolList[0] before set: ");
+println(boolList[0]);
+boolList[0] = false;
+print("Here is boolList[0] after set: ");
+println(boolList[0]);

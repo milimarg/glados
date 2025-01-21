@@ -1,0 +1,5 @@
+[91mCompilation error:
+[0m[91m[line 3, col 11] Error at ',': Expect ';' after variable declaration.
+[0m[91m[line 5, col 11] Error at ',': Expect ';' after variable declaration.
+[0m[91m[line 6, col 1] Error at end: Expect expression.
+[0m

@@ -1,0 +1,33 @@
+var a = "before multiline comment"; // random single line comment
+
+/*this is
+    a
+multiline comment*/
+
+println a;
+
+/*
+
+this
+is
+
+another
+
+
+multiline
+
+
+comment
+
+
+*/
+
+
+
+a = "after comment";
+
+/* this is a multiline comment on a single line */
+
+println a;
+
+/* multiline comment at end of file*/

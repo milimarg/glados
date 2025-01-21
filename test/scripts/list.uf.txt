@@ -1,0 +1,8 @@
+Here is emptyList: <list> []
+Here is otherEmptyList: <list> []
+Here is boolList: <list> [true,false,true]
+Here is intList: <list> [54,12,7]
+Here is stringList: <list> [Coucou,Je,suis,en,depression]
+Here is new boolList: <list> [true,false]
+Here is boolList[0] before set: true
+Here is boolList[0] after set: false

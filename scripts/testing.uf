@@ -1,0 +1,38 @@
+class Foo {
+    bar() { return "class output"; }
+}
+
+println Foo().bar();
+
+var a = "";
+a = "base output";
+println a;
+
+var x = "outside";
+println(x);
+{
+    var x = "inside";
+    println(x);
+}
+println(x);
+
+fun testFunction(x)
+{
+    println "TEST";
+    return x;
+}
+println testFunction("string");
+println testFunction(42.5);
+println testFunction(nil);
+
+println 1 + 5 * (2 + 1);
+
+println <-> (false) ? 42 : 43;
+
+
+var sum = 0;
+for (var i = 0; i < 10; i = i + 1) {
+  println "AAA";
+  sum = sum + i;
+}
+println sum;

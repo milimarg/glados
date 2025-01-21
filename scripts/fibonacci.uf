@@ -1,0 +1,16 @@
+fun fibonacci(n)
+{
+    if (n == 0) {
+        return 0;
+    }
+    if (n == 1) {
+        return 1;
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+println fibonacci(0);  // * Output: 0
+println fibonacci(1);  // * Output: 1
+println fibonacci(5);  // * Output: 5
+println fibonacci(10); // * Output: 55
+// println fibonacci(25); // Output: 55

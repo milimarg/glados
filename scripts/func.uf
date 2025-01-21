@@ -1,0 +1,8 @@
+fun testFunction(x)
+{
+    print "TEST ";
+    return x;
+}
+println testFunction(12);
+println testFunction(42);
+println testFunction(69);

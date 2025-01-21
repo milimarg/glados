@@ -1,0 +1,5 @@
+Here is myMap: <map> fromList []
+Here is mySafeMap: <map> fromList []
+Here is myMap[8]: Coucou
+Here is mySafeMap[0] before set: nil
+Here is mySafeMap[0] after set: Now it's good

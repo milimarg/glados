@@ -1,0 +1,45 @@
+fun test() {}
+
+fun func()
+{
+    var i = 0;
+//    var result = 1;
+    while (i < 10) {
+        println "Test";
+//        result *= 2;
+        i++;
+    }
+/*    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";
+    println "Test";*/
+//    test();
+//  return result;
+    return 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2;
+}
+
+println(func());

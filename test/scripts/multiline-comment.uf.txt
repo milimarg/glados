@@ -1,0 +1,2 @@
+before multiline comment
+after comment

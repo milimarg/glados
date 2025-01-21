@@ -1,0 +1,4 @@
+abs -42 = 
+[91mUndefined variable 'abs'.
+[0m[91mRuntime error in files.
+[0m
